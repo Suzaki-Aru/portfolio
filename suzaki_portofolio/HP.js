@@ -20,7 +20,7 @@ document.getElementById("plane").addEventListener("click", function() {
 
   document.getElementById("kitetsu").addEventListener("click", function() {
     var plane = this;
-    var width = document.documentElement.clientWidth; // ビューポートの幅を取得
+    var width = document.documentElement.clientWidth; 
     plane.style.transition = "left 2s ease-in-out"; // アニメーション効果を設定
-    plane.style.left = width + "px"; // 飛行機を画面外まで移動させる
+    plane.style.left = width + "px"; 
   });
