@@ -22,6 +22,7 @@ table {
 
 h1 {
     background-color: antiquewhite;
+    color: blue;
 }
 
 body {
@@ -32,3 +33,18 @@ a {
     text-decoration: none;
     color:black;
 }
+
+#plane {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+  }
+
+  #kitetsu {
+    width:120px;
+    height:180px;
+    position:absolute;
+    top:950px;
+
+  }
